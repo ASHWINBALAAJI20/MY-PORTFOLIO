@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashwin Balaaji Portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/83c5620ee1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+         <div class="container">
+            <nav>
+                <img src="images/AB.png" class="logo" >
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick=openmenu()></i>
+            </nav>
+            <div class="header-text">
+                <p>VLSI Engineer and Full Stack Developer</p>
+                <h1>Hi, I'm <span>Ashwin Balaaji</span><br> from Chennai</h1>
+
+            </div>
+         </div>
+    </div>
+    <!---------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/my image.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Ashwin Balaaji— a passionate Electronics and Communication Engineering student at RMD Engineering College with deep 
+                        interest for learning and creating innovative technologies and ideas in the field of VLSI(Very large scale integration),
+                         Iot(Internet Of Things), Web Design and Programming.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing creative user-friendly web interfaces using Figma</li>
+                            <li><span>Web Design</span><br>Design website using HTML,CSS and Javascript</li>
+                            <li><span>Internet Of Things</span><br>Building iot based devices using Arduino,sensors etc...</li>
+                            <li><span>VLSI</span><br>Creating verilog programs with softwares like Xilinx vivado, Xilins ISE</li>
+                            <li><span>Programming</span><br>Programming using languages uisng Java,C,C++,Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>NSIC (June 2024 - July 2024)</span><br>Embedded Systems and IOT internship at Ekkaduthangal. Learned about 
+                            working with Proteus</li>
+                            <li><span>Nirloba (June 2024 - July 2024)</span><br>Embedded Systems and IOT internship at Alandur. Learned about 
+                                PIC microcontroller and its interfacing</li>
+                            <li><span>InterPe (Jan 2024 - Feb 2024)</span><br>Internship on web development using
+                            HTML,CSS and Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>RMD Enginnering College (2022 - 2026)</span><br>Currently pursuing Electronics and 
+                            Communication Engineering</li>
+                            <li><span>Everwin Matriculation School</span><br>Passed out HSC with 90.17%.</li>
+                            <li><span>Everwin Matriculation School</span><br>Passed out SSLC with 85.4%.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------services-------->
+    <div id="services">
+        <div class=""container>
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design</h2>
+                    <p>As a web designer, I specialize in creating captivating and functional websites that perfectly represent your brand. With a focus on seamless
+                    responsiveness, easy navigation, and sleek, contemporary designs, I ensure your website stands out in the digital world. From concept to launch, 
+                    I craft personalized experiences that not only look great but also engage your audience effectively. Let’s work together to transform your ideas
+                     into an online presence that leaves a lasting impression!</p>
+                    <a href="https://github.com/ASHWINBALAAJI20">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-wrench"></i>
+                    <h2>Project Maker </h2>
+                    <p>As an electronics project maker, I bring innovative ideas to life by merging cutting-edge technology with practical design. Specializing in circuit design,
+                    prototyping, and hands-on development, I create functional and efficient electronic solutions tailored to your needs. Whether it’s building custom devices
+                    or enhancing existing systems, I ensure your projects are both reliable and impactful, helping you bring your vision to the real world. Let’s collaborate 
+                    to turn your electronics concepts into fully working creations!</p>
+                    <a href="https://github.com/ASHWINBALAAJI20">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2> UI/UX Designer</h2>
+                    <p>As a UI/UX designer, I create engaging and intuitive digital experiences that prioritize both functionality and visual appeal.
+                    By blending user-focused design strategies with innovative aesthetics, I specialize in crafting seamless interfaces, conducting in-depth
+                    user research, and building wireframes and prototypes that bring your vision to life. My goal is to ensure your product not only resonates with 
+                    users but also drives business success.Let's collaborate to design an experience that captivates and converts!</p>
+                    <a href="https://www.figma.com/files/team/1304903216818561528/recents-and-sharing?fuid=1284303764219055266">Learn more</a>
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+    <!-- ------------------portfolio----------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg">
+                    <div class="layer">
+                        <h3> Automatic Gas Leakage Detector</h3>
+                        <p>Gas Leakage detector is an IoT-based project designed to detect fire, flammable gases and smoke. It can be used in industries for 
+                            providing safety to the workers. Detector emits alert signals, visually capturing the essence of safety and vigilance. The bold, 
+                            minimalistic design emphasizes fast detection and immediate response to potential gas leaks.</p>
+                        <a href="https://github.com/ASHWINBALAAJI20"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Portable Water Purifier</h3>
+                        <p>Portable water purifier is a implemetation based project. Compact and smart, this portable water purifier is designed like
+                             a sleek water bottle, featuring advanced filtration—perfect for hydration on the go in any adventure."
+                        </p>
+                        <a href="https://github.com/ASHWINBALAAJI20"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Micro Maze Mouse</h3>
+                        <p>Micro maze mouse is a IOT-based project maze-solving marvel built for speed and precision. With advanced sensors and nimble wheels,
+                             it navigates twists and turns like a pro, making every move a strategic step toward conquering the maze in record time!
+                        </p>
+                        <a href="https://github.com/ASHWINBALAAJI20"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/ASHWINBALAAJI20 " class="btn">See More</a>
+    
+        </div>
+    </div>
+    <!-- -------------------------contact---------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope" style="color:aqua"></i> ashwinbalaajijagadish20@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 7845186621</p>
+                <div class="social-icons">
+                    <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new"><i class="fa-solid fa-square-envelope"></i></a>
+                    <a href="https://github.com/ASHWINBALAAJI20"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.instagram.com/_ab_since_2002/?hl=en#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/ashwin-balaaji-jagadish-b0752824a"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.threads.net/@_ab_since_2002"><i class="fa-brands fa-threads"></i></i></a>
+
+                </div>
+                <a href="images/my-cv.pdf " download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+
+            </form>
+            <span id="msg"></span>
+
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Ashwin Balaaji. Made with <i class="fa-solid fa-heart"></i>    </p><!---------copyright-->
+    </div>
+</div>
+    <script src="script.js"> </script>
+</body>
+</html> 
